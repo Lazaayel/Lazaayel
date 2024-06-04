@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Main from './components/Main';
 import ReactPage from './components/ReactPage';
@@ -38,9 +38,9 @@ export default function App() {
     }
   
   return (
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route exact path="/" element={<About />} />
+        <Route path="/" element={<About />} />
         <Route path="/main/*" element={<Main />} />
         <Route path="/react" element={<ReactPage />} />
         <Route path="/styling" element={<Styling />} />
@@ -49,7 +49,7 @@ export default function App() {
         <Route path="/routing" element={<Routing />} />
         <Route path="/axios" element={<Axios />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
