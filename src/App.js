@@ -39,9 +39,8 @@ export default function App() {
   
   return (
     <Router>
-      <div>
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route exact path="/" element={<About />} />
         <Route path="/main/*" element={<Main />} />
         <Route path="/react" element={<ReactPage />} />
         <Route path="/styling" element={<Styling />} />
@@ -50,7 +49,6 @@ export default function App() {
         <Route path="/routing" element={<Routing />} />
         <Route path="/axios" element={<Axios />} />
       </Routes>
-      </div>
     </Router>
   );
 }
