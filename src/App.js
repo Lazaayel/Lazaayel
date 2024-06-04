@@ -39,9 +39,7 @@ export default function App() {
   
   return (
     <Router>
-      <div className='test'>
-        safef
-      </div>
+      <div>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/main/*" element={<Main />} />
@@ -52,6 +50,7 @@ export default function App() {
         <Route path="/routing" element={<Routing />} />
         <Route path="/axios" element={<Axios />} />
       </Routes>
+      </div>
     </Router>
   );
 }
