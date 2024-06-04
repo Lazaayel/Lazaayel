@@ -39,6 +39,9 @@ export default function App() {
   
   return (
     <Router>
+      <div className='test'>
+        safef
+      </div>
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/main/*" element={<Main />} />
