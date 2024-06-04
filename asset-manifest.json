@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Lazaayel/static/css/main.ad27b5d2.css",
+    "main.js": "/Lazaayel/static/js/main.363fea30.js",
+    "static/js/453.a6a97343.chunk.js": "/Lazaayel/static/js/453.a6a97343.chunk.js",
+    "static/media/splash.jpg": "/Lazaayel/static/media/splash.9d4b86637a451800676f.jpg",
+    "static/media/mainVertical.svg": "/Lazaayel/static/media/mainVertical.0565de76876de3773af2.svg",
+    "static/media/main.svg": "/Lazaayel/static/media/main.f8a36897c7b00fde71fe.svg",
+    "index.html": "/Lazaayel/index.html",
+    "main.ad27b5d2.css.map": "/Lazaayel/static/css/main.ad27b5d2.css.map",
+    "main.363fea30.js.map": "/Lazaayel/static/js/main.363fea30.js.map",
+    "453.a6a97343.chunk.js.map": "/Lazaayel/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad27b5d2.css",
+    "static/js/main.363fea30.js"
+  ]
+}
